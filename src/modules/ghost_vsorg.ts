@@ -295,8 +295,9 @@ export default class GhostModule extends Module {
 					ghostExpeditionId: body.ghostExpeditionId
 				},
             });
-
-            let country = 'JPN';
+            
+            // Only 8 countries supported Japan , Indonesia , Australia , China , Hong Kong , Philippines , Thailand and Singapore
+            let country = 'KOR'; // If the name JPN is used, it will be the name of a province in Japan.
             let regionId: number = 20;
             if(ghostExpeditionRegion!.opponentCountry === 'IDN')
             {
@@ -322,6 +323,16 @@ export default class GhostModule extends Module {
             {
                 country = 'PHL';
                 regionId = 30;
+            }
+            else if(ghostExpeditionRegion!.opponentCountry === 'THA')
+            {
+                country = 'THA';
+                regionId = 40;
+            }
+            else if(ghostExpeditionRegion!.opponentCountry === 'SGP')
+            {
+                country = 'SGP';
+                regionId = 34;
             }
 
             // Get Canditate list
