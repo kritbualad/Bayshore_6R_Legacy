@@ -28,7 +28,7 @@ export default class ResourceModule extends Module {
                 placeId: Config.getConfig().placeId || 'JPN0123',
                 regionId: Number(Config.getConfig().regionId) || 1,
                 shopName: Config.getConfig().shopName || 'Bayshore',
-                country: Config.getConfig().country || 'JPN'
+                country: Config.getConfig().country || 'THA'
             }));
 
             let checkPlaceList = await prisma.placeList.findFirst({
@@ -46,7 +46,7 @@ export default class ResourceModule extends Module {
                         placeId: Config.getConfig().placeId || 'JPN0123',
                         regionId: Number(Config.getConfig().regionId) || 1,
                         shopName: Config.getConfig().shopName || 'Bayshore',
-                        country: Config.getConfig().country || 'JPN'
+                        country: Config.getConfig().country || 'THA'
                     }
                 })
             }

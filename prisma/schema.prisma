@@ -87,7 +87,7 @@ model Car {
   lastPlayedAt        Int     @default(0)
   aura                Int     @default(0)
   regionId            Int     @default(0)
-  country             String  @default("JPN")
+  country             String  @default("THA")
 
   // This is more data about the car
   tuningPoints      Int         @default(0)

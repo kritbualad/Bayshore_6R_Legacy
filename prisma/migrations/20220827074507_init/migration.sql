@@ -78,7 +78,7 @@ CREATE TABLE "Car" (
     "lastPlayedAt" INTEGER NOT NULL DEFAULT 0,
     "aura" INTEGER NOT NULL DEFAULT 0,
     "regionId" INTEGER NOT NULL DEFAULT 0,
-    "country" TEXT NOT NULL DEFAULT 'JPN',
+    "country" TEXT NOT NULL DEFAULT 'THA',
     "tuningPoints" INTEGER NOT NULL DEFAULT 0,
     "odometer" INTEGER NOT NULL DEFAULT 0,
     "playCount" INTEGER NOT NULL DEFAULT 0,

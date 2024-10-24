@@ -65,7 +65,7 @@ export default class MuchaModule extends Module {
                 AUTH_INTERVAL: "86400",
                 CHARGE_URL: `${URL_BASE}/charge/`,
                 CONSUME_TOKEN: "0",
-                COUNTRY_CD: "JPN",
+                COUNTRY_CD: "THA",
                 DONGLE_FLG: "1",
                 EXPIRATION_DATE: "null",
                 FILE_URL: `${URL_BASE}/file/`,
