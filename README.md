@@ -10,10 +10,12 @@ this repo is based on the original repo (https://github.com/ProjectAsakura/Baysh
  - VSORG [Expedition] (some of them maybe... expedition saving works)
  - Highway [New Mode] (some of them maybe... highway saving works)
  - Ghost Trophies Saving
+ - Node.js 16.16.0
  
  ## What is not working 
  - Transfer from 6
  - Wanted Info for each area (game will crash... idk why)
+ - Node.js 21
 
 ## Credits
 This software is part of [Project Asakura](https://github.com/ProjectAsakura).
